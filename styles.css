@@ -30,6 +30,12 @@ h2 {
 h1 {
   padding: .5em;
 }
+span.code {
+  font-family: "Fira Mono", monospace;
+  background-color: #ddd;
+  border-radius: 4px;
+  padding: 0.125em 0.25em;
+}
 .attribution-text {
   font-size: .75em;
   text-align: center;
