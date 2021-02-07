@@ -21,6 +21,7 @@ footer div.container {
 }
 main.container {
   padding: 0;
+  padding-bottom: 0.25em;
 }
 
 h2 {
