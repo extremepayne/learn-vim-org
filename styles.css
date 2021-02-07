@@ -32,6 +32,11 @@ h1 {
   margin: 0;
   padding-bottom: 0;
 }
+.attribution-text {
+  font-size: .75em;
+  text-align: center;
+  padding: .5em;
+}
 div.text-right h2 {
   padding: .5em;
   padding-right: 0;
