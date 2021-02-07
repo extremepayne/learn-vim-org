@@ -27,6 +27,11 @@ h2 {
   padding: .5em;
   padding-left: 0;
 }
+h1 {
+  padding: .5em;
+  margin: 0;
+  padding-bottom: 0;
+}
 div.text-right h2 {
   padding: .5em;
   padding-right: 0;
