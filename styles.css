@@ -23,6 +23,18 @@ main.container {
   padding: 0;
 }
 
+h2 {
+  padding: .5em;
+  padding-left: 0;
+}
+div.text-right h2 {
+  padding: .5em;
+  padding-right: 0;
+}
+
+.stuff-container {
+  padding: .5em;
+}
 .background-image {
   position: relative;
   text-align: center;
