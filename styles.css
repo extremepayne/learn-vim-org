@@ -10,8 +10,32 @@ body {
 .bg-primary {
   background-color: #333 !important;
 }
+header {
+  background-color: #333 !important;
+}
+footer div.container {
+  text-align: center;
+}
 .navbar-brand {
   font-family: "Fira Mono", monospace;
+}
+main.container {
+  padding: 0;
+}
+
+.background-image {
+  position: relative;
+  text-align: center;
+}
+.text-centered-over-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tagline {
+  color: #fff;
+  font-size: 1.25rem;
 }
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -62,6 +86,14 @@ body {
   }
   .nav-link:hover {
     background-color: #666 !important;
+  }
+  .background-image img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+  }
+  .tagline {
+    font-size: 3rem;
   }
 }
 @media only screen and (min-width: 1200px){
