@@ -14,9 +14,11 @@ body {
   display: flex;
   flex-direction: column;
 }
-.bram-photo {
-  display: flex;
-  justify-content: center;
+.history-container {
+  margin: 0.5em;
+}
+.history-container img {
+  margin-bottom: 0.5em;
 }
 header {
   background-color: #333 !important;
@@ -71,6 +73,10 @@ div.text-right h2 {
 .tagline {
   color: #fff;
   font-size: 1.25rem;
+}
+.container-second {
+  display: flex;
+  flex-direction: column;
 }
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -127,6 +133,13 @@ body {
   }
   .tagline {
     font-size: 3rem;
+  }
+  .history-container {
+    flex-direction: row;
+  }
+  .history-container img {
+    width: 24em;
+    margin: 0.75em;
   }
 }
 @media only screen and (min-width: 1200px){
